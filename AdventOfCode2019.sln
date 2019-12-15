@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2019", "AdventOfCode2019\AdventOfCode2019.csproj", "{75B689C4-2CB4-4763-AB53-01A4E03BCB33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "inputs", "inputs", "{095016B5-4CA5-410E-84A8-0579238166A1}"
+	ProjectSection(SolutionItems) = preProject
+		AdventOfCode2019\inputs\day1.txt = AdventOfCode2019\inputs\day1.txt
+		AdventOfCode2019\inputs\day2.txt = AdventOfCode2019\inputs\day2.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntcodeComputer", "IntcodeComputer\IntcodeComputer.csproj", "{30B114C5-AA30-484F-9020-26682D973DA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75B689C4-2CB4-4763-AB53-01A4E03BCB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B689C4-2CB4-4763-AB53-01A4E03BCB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B689C4-2CB4-4763-AB53-01A4E03BCB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B689C4-2CB4-4763-AB53-01A4E03BCB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B114C5-AA30-484F-9020-26682D973DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B114C5-AA30-484F-9020-26682D973DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B114C5-AA30-484F-9020-26682D973DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B114C5-AA30-484F-9020-26682D973DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11CEEAE4-C6E6-4F77-99D3-32261562D8A4}
+	EndGlobalSection
+EndGlobal
