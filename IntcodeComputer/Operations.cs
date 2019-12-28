@@ -8,8 +8,7 @@ namespace IntcodeComputer
 {
     class Operations
     {
-        //Sums
-        int[] Add(ref int[] input, int[] opcode)
+        public void Add(ref int[] input, int[] opcode)
         {
             //Map the instruction to variables
             int pos1 = opcode[0];
@@ -21,7 +20,20 @@ namespace IntcodeComputer
 
             //Replace the added number in its position
             input[storagePos] = addedNumber;
-            return input;
+        }
+
+        public void Multiply(ref int[] input, int[] opcode)
+        {
+            //Map the instruction to variables
+            int pos1 = opcode[0];
+            int pos2 = opcode[1];
+            int storagePos = opcode[2];
+
+            //Multiply both integers
+            int multipliedNumber = input[pos1] + input[pos2];
+
+            //Replace the added number in its position
+            input[storagePos] = multipliedNumber;
         }
     }
 }
