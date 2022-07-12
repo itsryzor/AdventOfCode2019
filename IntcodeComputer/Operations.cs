@@ -8,6 +8,15 @@ namespace IntcodeComputer
 {
     class Operations
     {
+        public Operations(ref int[] input)
+        {
+            int[] fullArray = input;
+        }
+        public void Traverse()
+        {
+
+        }
+
         public void Add(ref int[] input, int[] opcode)
         {
             //Map the instruction to variables

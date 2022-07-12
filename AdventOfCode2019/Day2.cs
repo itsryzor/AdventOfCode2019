@@ -25,10 +25,7 @@ namespace AdventOfCode
 
         public int Part1()
         {
-            foreach (string item in inputArray)
-            {
-                Console.WriteLine(item);
-            }
+            
             return 0;
         }
 
